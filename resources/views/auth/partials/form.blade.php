@@ -1,0 +1,27 @@
+<div style="border-radius:8px;
+            width:120%;
+            padding:1% 10% 10% 10% ;
+            background-color:#ffffff"> 
+    <form  role="form" id="login" method="POST" action="{{ route('auth.login.store') }}">
+        {!! csrf_field() !!}
+        <div class="page-header">
+            <h3 class="text-center text-primary">报故障系统</h3>
+        </div>
+        </br>
+        <div class="form-group fg-line">
+            <input type="text" id="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="请输入账号">
+        </div>
+        <div class="form-group fg-line">
+            <input type="password" id="password" name="password" class="form-control" placeholder="请输入密码">
+        </div>
+        <button type="submit" name="submit" class="btn btn-block btn-primary m-t-10">登录</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div style="text-align: center">
+            <!--<a href="{{ route('auth.password.forgot') }}" class="btn btn-link m-t-10">Forgot password</a><a href="{{ url('/') }}" class="btn btn-link m-t-10">Back to Blog</a>-->
+            © 2017 GDAIB-NIC. All rights reserved.
+        </div>
+    </form>
+</div>

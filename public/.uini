@@ -1,0 +1,1 @@
+open_basedir="E:\laravel\svn_canvas\public\;E:\UPUPW_NP7.0_64\Guard\;E:\UPUPW_NP7.0_64\phpmyadmin\;E:\UPUPW_NP7.0_64\temp\;C:\Windows\Temp\"
